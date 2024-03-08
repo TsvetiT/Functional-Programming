@@ -1,6 +1,6 @@
 main :: IO()
 main = do
-    print(count [1..10])
+    print(count [2..3])
 
 count::[Int] -> Int
 count xs =
