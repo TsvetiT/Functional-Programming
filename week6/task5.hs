@@ -2,7 +2,7 @@
 -- приближението (https://en.wikipedia.org/wiki/Newton%27s_method#Square_root).
 main::IO()
 main=do
-    print (newtonSqrt 0.5) 
+    print (newtonSqrt 6) 
 
 
 newtonSqrt :: Double -> Double
